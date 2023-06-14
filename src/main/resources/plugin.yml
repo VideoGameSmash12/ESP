@@ -1,0 +1,10 @@
+name: ESP
+description: "Temporary plugin that patches a known TPToggle bypass exploit in Essentials"
+author: videogamesm12
+version: '${project.version}'
+main: me.videogamesm12.esp.EssentialsSpectatorPatch
+api-version: 1.17
+depend:
+  - ProtocolLib
+  - Essentials
+  - TotalFreedomMod
